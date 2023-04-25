@@ -2,7 +2,7 @@ import cssText from "data-text:~/contents/chatgpt.css"
 import type { PlasmoCSConfig } from "plasmo"
 
 export const config: PlasmoCSConfig = {
-  matches: ["https://chat.openai.com/chat*"]
+  matches: ["https://chat.openai.com/*"]
 }
 
 // Inject into the ShadowDOM
